@@ -1,0 +1,70 @@
+html{
+  height: 1000px;
+    width: 98vw;
+    background: white;
+}
+h1 {
+  font-size: 50px;
+  color: pink;
+}
+body{
+  background-image: url("flower.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Kalam', cursive;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1361px;
+  height: 910px;
+}
+main {
+  padding-top: 50px;
+  -webkit-perspective: 800px;
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Kalam', cursive;
+}
+h1{
+  text-align: center;
+}
+#coin-flip-cont {
+width: 250px;
+height: 320px;
+position: relative;
+display: block;
+margin: auto;
+}
+#coin {
+position: absolute;
+width: 100%;
+height: 100%;
+transform-style: preserve-3d;
+transition: all 1.5s ease;
+}
+#coin .front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  color: #333;
+}
+#coin .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  color: #333;
+}
+.coin2{
+  transform: rotateY(-3060deg);
+}
+.coin3{
+  transform: rotateY(2880deg);
+}
+img{
+  width: 100%;
+}
